@@ -1,0 +1,1514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Ho Huu Tuong" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Ho Huu Tuong">Ho Huu Tuong</h1>
+
+          <p class="title">AI Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:tuongho.dev@gmail.com" class="contact-link">tuongho.dev@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+84935081223" class="contact-link">+84 935 081 223</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Da Nang, Vietnam</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/tuonghh/" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/tunneee" class="social-link" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="mailto:tuongho.dev@gmail.com" class="social-link">
+              <ion-icon name="mail-outline"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Research</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Hello! I'm Tuong, an AI Engineer with a degree in Artificial Intelligence from FPT University, specializing in Computer Vision and
+            Multimodal AI. I'm passionate about research and driven to apply intelligent systems to real-world problems that make a difference.
+          </p>
+
+          <p>
+            Currently working at FPT Corporation, I focus on developing 3D reconstruction pipelines, LLM fine-tuning, and building RAG systems.
+            I've engineered advanced OCR solutions and designed document intelligence systems that extract insights
+            from unstructured data. When I'm not coding, you'll find me playing piano, exploring creative projects, or discovering new ways
+            AI can transform our world.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What I'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="AI icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AI Research & Development</h4>
+
+                <p class="service-item-text">
+                  Cutting-edge research in Computer Vision, NLP, and Multimodal AI systems with published papers and real-world applications.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="ML development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Machine Learning Engineering</h4>
+
+                <p class="service-item-text">
+                  MLOps implementation, model deployment, and scalable AI solutions using cloud platforms and modern frameworks.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="3D reconstruction icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">3D Reconstruction & Computer Vision</h4>
+
+                <p class="service-item-text">
+                  Advanced 3D reconstruction pipelines from single/multi-view inputs using generative algorithms and deep learning.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="document intelligence icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Document Intelligence & OCR</h4>
+
+                <p class="service-item-text">
+                  Custom OCR engines, document processing systems, and intelligent data extraction from unstructured content.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Achievements & Recognition</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="FPT Corporation" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>FPT Corporation</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Tuong demonstrates exceptional skills in AI engineering, leading multiple projects from 3D reconstruction to LLM deployment. 
+                    His innovative approach to solving complex problems and ability to bridge research and practical applications makes him 
+                    an invaluable team member.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Research Community" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Academic Recognition</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    With 10+ published papers in top conferences and journals, Tuong has established himself as a promising researcher 
+                    in Computer Vision and Multimodal AI. His work on bee queen detection, multimedia systems, and educational AI 
+                    applications showcases his diverse expertise.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Competition Success" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Competition Excellence</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Multiple hackathon victories including Second Prize at FPT Edu Hackathon for Generative AI and DevFest MienTrung 2023. 
+                    Tuong consistently delivers innovative solutions under pressure, combining technical excellence with creative problem-solving.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Community Impact" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Community Leadership</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    As admin of Green Chemistry (50K+ likes, 91K+ followers) and co-founder of multiple STEM initiatives, Tuong demonstrates 
+                    exceptional leadership and commitment to education in the tech community.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - invited talks
+        -->
+
+        <section class="invited-talks">
+
+          <h3 class="h3 invited-talks-title">Invited Talks</h3>
+
+          <ul class="invited-talks-list">
+
+            <li class="invited-talks-item">
+              <div class="content-card" data-invited-talks-item>
+
+                <figure class="invited-talks-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Google I/O Extended" width="60" data-invited-talks-avatar>
+                </figure>
+
+                <h4 class="h4 invited-talks-item-title" data-invited-talks-title>Google I/O Extended</h4>
+
+                <div class="invited-talks-text" data-invited-talks-text>
+                  <p>
+                    Keynote speaker at Google I/O Extended, sharing insights on cutting-edge AI technologies and their real-world applications 
+                    in modern software development.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="invited-talks-item">
+              <div class="content-card" data-invited-talks-item>
+
+                <figure class="invited-talks-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="UniHack" width="60" data-invited-talks-avatar>
+                </figure>
+
+                <h4 class="h4 invited-talks-item-title" data-invited-talks-title>UniHack</h4>
+
+                <div class="invited-talks-text" data-invited-talks-text>
+                  <p>
+                    Featured speaker at UniHack, discussing innovation in AI engineering and inspiring the next generation of developers 
+                    with practical insights from industry experience.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="invited-talks-item">
+              <div class="content-card" data-invited-talks-item>
+
+                <figure class="invited-talks-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="GDG Mien Trung" width="60" data-invited-talks-avatar>
+                </figure>
+
+                <h4 class="h4 invited-talks-item-title" data-invited-talks-title>Facilitator at GDG Mien Trung 2025</h4>
+
+                <div class="invited-talks-text" data-invited-talks-text>
+                  <p>
+                    Lead facilitator at Google Developer Group Mien Trung 2025, organizing tech workshops and fostering developer 
+                    community engagement across Central Vietnam.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Bachelor of Artificial Intelligence - FPT University</h4>
+
+              <span>2021 — 2025</span>
+
+              <p class="timeline-text">
+                GPA: 3.6 • Thesis: "Optimizing Multimedia Query Systems: Applying Multimodal Artificial Intelligence Models to Image and Video Data"
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Chemistry - Quoc Hoc Hue High School For The Gifted</h4>
+
+              <span>2018 — 2021</span>
+
+              <p class="timeline-text">
+                Specialized in Chemistry at one of Vietnam's most prestigious high schools, developing strong analytical and research foundations.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">AI Engineer - FPT Corporation</h4>
+
+              <span>Jan 2024 — Present</span>
+
+              <p class="timeline-text">
+                Leading development of 3D reconstruction pipelines, LLM fine-tuning, and RAG systems. Engineered advanced OCR solutions and designed document intelligence systems for automated data extraction.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Research & Development</h4>
+
+              <span>2022 — Present</span>
+
+              <p class="timeline-text">
+                Published 10+ research papers in Computer Vision, NLP, and Multimodal AI. Contributing to academic conferences and journals with innovative solutions for real-world problems.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Student Researcher</h4>
+
+              <span>2021 — 2024</span>
+
+              <p class="timeline-text">
+                Focused on Computer Vision and Multimodal AI research during university studies. Won multiple hackathons and competitions while maintaining excellent academic performance.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill skill-section">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <ion-icon name="brain-outline" class="skill-icon"></ion-icon>
+                <h5 class="h5">AI & Machine Learning</h5>
+              </div>
+              <p class="skill-text">PyTorch, TensorFlow, Computer Vision, NLP, Multimodal AI, Deep Learning</p>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <ion-icon name="code-slash-outline" class="skill-icon"></ion-icon>
+                <h5 class="h5">Programming Languages</h5>
+              </div>
+              <p class="skill-text">Python (Advanced), C/C++, JavaScript, SQL</p>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <ion-icon name="rocket-outline" class="skill-icon"></ion-icon>
+                <h5 class="h5">MLOps & Deployment</h5>
+              </div>
+              <p class="skill-text">PyTorch Development, Model Deployment, LLM Fine-tuning, Quantization, TGI, RAG Systems</p>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <ion-icon name="cloud-outline" class="skill-icon"></ion-icon>
+                <h5 class="h5">Cloud Platforms</h5>
+              </div>
+              <p class="skill-text">AWS, Google Cloud, Azure</p>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <ion-icon name="server-outline" class="skill-icon"></ion-icon>
+                <h5 class="h5">Data & Databases</h5>
+              </div>
+              <p class="skill-text">Vector Database, Neo4j, ETL Development, Data Processing</p>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <ion-icon name="settings-outline" class="skill-icon"></ion-icon>
+                <h5 class="h5">Specialized AI</h5>
+              </div>
+              <p class="skill-text">3D Reconstruction, OCR Systems, Document Intelligence</p>
+            </li>
+
+          </ul>
+
+        </section>
+
+        <section class="timeline competition-excellence-section">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="trophy-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Competition Excellence</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Second Prize - FPT Edu Hackathon for Generative AI</h4>
+
+              <span>2024</span>
+
+              <p class="timeline-text">
+                Achieved second place in FPT's premier Generative AI hackathon, developing innovative AI solutions under tight deadlines. 
+                Demonstrated expertise in prompt engineering, model fine-tuning, and creative application of LLMs for practical problems.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Winner - DevFest MienTrung 2023</h4>
+
+              <span>2023</span>
+
+              <p class="timeline-text">
+                Won Google Developer Group's flagship competition in Central Vietnam, showcasing technical excellence and innovative 
+                problem-solving skills. Project focused on scalable web applications with modern development frameworks.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Multiple University Hackathons</h4>
+
+              <span>2022 — 2024</span>
+
+              <p class="timeline-text">
+                Consistent top performer in university-level competitions, including AI/ML challenges, web development contests, 
+                and innovation hackathons. Demonstrated ability to rapidly prototype solutions and work effectively in team environments.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Academic Excellence Awards</h4>
+
+              <span>2021 — 2025</span>
+
+              <p class="timeline-text">
+                Recipient of multiple academic recognition awards during Bachelor's degree, maintaining high GPA while actively 
+                participating in research projects and publishing papers in international conferences.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESEARCH
+      -->
+
+      <article class="research" data-page="research">
+
+        <header>
+          <h2 class="h2 article-title">Research</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="library-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Publications</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Explainable Intelligence in Digital Twins: State-Of-The-Art and Open Challenges</h4>
+
+              <div class="timeline-header">
+                <span>2025</span>
+                <span class="status under-review">Under Review</span>
+              </div>
+
+              <div class="publication-info">
+                <p class="journal-name">EIDT 2025</p>
+              </div>
+
+              <p class="timeline-text">
+                A comprehensive survey examining the current state and future challenges of explainable AI in digital twin systems, 
+                identifying key research gaps and proposing future directions for the field.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">A review on Vision-Language-Based Approaches: Challenges and Applications</h4>
+
+              <div class="timeline-header">
+                <span>2025</span>
+                <span class="status accepted">Accepted</span>
+              </div>
+
+              <div class="publication-info">
+                <p class="journal-name">Computers, Materials & Continua</p>
+              </div>
+
+              <p class="timeline-text">
+                A comprehensive review exploring the latest developments in Vision-Language models, 
+                examining challenges and real-world applications in AI systems.
+                <a href="https://doi.org/10.32604/cmc.2025.060363" target="_blank" class="paper-link">View Paper</a>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Bio-Inspired Algorithms in NLP Techniques: challenges, limitations and its applications</h4>
+
+              <div class="timeline-header">
+                <span>2025</span>
+                <span class="status accepted">Accepted</span>
+              </div>
+
+              <div class="publication-info">
+                <p class="journal-name">Computers, Materials & Continua</p>
+              </div>
+
+              <p class="timeline-text">
+                Exploring bio-inspired computational approaches for natural language processing tasks.
+                <a href="https://doi.org/10.32604/cmc.2025.063099" target="_blank" class="paper-link">View Paper</a>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">MoviePoster-Grounded contextual visualization using multimodal techniques</h4>
+
+              <div class="timeline-header">
+                <span>2024</span>
+                <span class="status accepted">Accepted</span>
+              </div>
+
+              <div class="publication-info">
+                <p class="journal-name">Lecture Notes on Data Engineering and Communications Technologies</p>
+              </div>
+
+              <p class="timeline-text">
+                Innovative approach to contextual visualization using multimodal AI techniques for movie poster analysis.
+                <a href="https://doi.org/10.1007/978-3-031-75596-5_9" target="_blank" class="paper-link">View Paper</a>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Face Detection Using Eigenfaces: A Comprehensive Review</h4>
+
+              <div class="timeline-header">
+                <span>2024</span>
+                <span class="status accepted">Accepted</span>
+              </div>
+
+              <div class="publication-info">
+                <p class="journal-name">IEEE Access</p>
+              </div>
+
+              <p class="timeline-text">
+                Comprehensive review of Eigenfaces methodology for face detection, exploring traditional approaches 
+                and their evolution in modern computer vision applications.
+                <a href="https://doi.org/10.1109/ACCESS.2024.3435964" target="_blank" class="paper-link">View Paper</a>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Mitigating hallucinations in large language models for educational application</h4>
+
+              <div class="timeline-header">
+                <span>2024</span>
+                <span class="status accepted">Accepted</span>
+              </div>
+
+              <div class="publication-info">
+                <p class="journal-name">IEEE International Conference on Consumer Electronics-Asia (ICCE-Asia)</p>
+              </div>
+
+              <p class="timeline-text">
+                Innovative approaches to reduce hallucinations in LLMs for educational contexts.
+                <a href="https://doi.org/10.1109/ICCE-Asia63397.2024.10773965" target="_blank" class="paper-link">View Paper</a>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Glimpse: A Multimodal-based Transforming Image Collection with Vector Database</h4>
+
+              <div class="timeline-header">
+                <span>2024</span>
+                <span class="status accepted">Accepted</span>
+              </div>
+
+              <div class="publication-info">
+                <p class="journal-name">International Conference on Information Networking (ICOIN)</p>
+              </div>
+
+              <p class="timeline-text">
+                Novel multimodal system for transforming image collections using vector databases and AI techniques.
+                <a href="https://doi.org/10.1109/icoin59985.2024.10572095" target="_blank" class="paper-link">View Paper</a>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">A technical review on Bootstrapping Language-Image Pre-training</h4>
+
+              <div class="timeline-header">
+                <span>2024</span>
+                <span class="status accepted">Accepted</span>
+              </div>
+
+              <div class="publication-info">
+                <p class="journal-name">DBpia</p>
+              </div>
+
+              <p class="timeline-text">
+                Technical review of BLIP (Bootstrapping Language-Image Pre-training) methodology and applications 
+                in multimodal AI systems.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Investigating YOLO models for rice seed classification</h4>
+
+              <div class="timeline-header">
+                <span>2023</span>
+                <span class="status accepted">Accepted</span>
+              </div>
+
+              <div class="publication-info">
+                <p class="journal-name">Lecture Notes in Networks and Systems</p>
+              </div>
+
+              <p class="timeline-text">
+                Application of YOLO object detection models for agricultural purposes, specifically rice seed classification.
+                <a href="https://doi.org/10.1007/978-3-031-36886-8_15" target="_blank" class="paper-link">View Paper</a>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Evaluating Audio Feature Extraction Methods for Identifying Bee Queen Presence</h4>
+
+              <div class="timeline-header">
+                <span>2023</span>
+                <span class="status accepted">Accepted</span>
+              </div>
+
+              <div class="publication-info">
+                <p class="journal-name">SOICT '23 Conference Proceedings</p>
+              </div>
+
+              <p class="timeline-text">
+                Novel application of audio signal processing and machine learning for automated bee queen detection in beekeeping.
+                <a href="https://doi.org/10.1145/3628797.3628852" target="_blank" class="paper-link">View Paper</a>
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Research</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>AI Projects</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Publications</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Research</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>AI Projects</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Publications</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="research">
+              <a href="https://doi.org/10.1145/3628797.3628852" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="Bee Queen Detection" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Bee Queen Detection</h3>
+
+                <p class="project-category">Research</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="ai projects">
+              <a href="https://doi.org/10.1109/icoin59985.2024.10572095" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="Glimpse Multimodal System" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Glimpse - Multimodal Image System</h3>
+
+                <p class="project-category">AI Projects</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="research">
+              <a href="https://doi.org/10.1109/ICCE-Asia63397.2024.10773965" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="LLM Hallucinations" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Mitigating LLM Hallucinations</h3>
+
+                <p class="project-category">Research</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="ai projects">
+              <a href="#" >
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="3D Reconstruction Pipeline" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">3D Reconstruction Pipeline</h3>
+
+                <p class="project-category">AI Projects</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="publications">
+              <a href="https://doi.org/10.1109/ACCESS.2024.3435964" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="Face Detection Eigenfaces" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Face Detection Using Eigenfaces</h3>
+
+                <p class="project-category">Publications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="publications">
+              <a href="https://doi.org/10.32604/cmc.2025.060363" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="Vision-Language Review" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Vision-Language Models Review</h3>
+
+                <p class="project-category">Publications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="ai projects">
+              <a href="#" >
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="Document Intelligence System" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Document Intelligence System</h3>
+
+                <p class="project-category">AI Projects</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="research">
+              <a href="https://doi.org/10.1007/978-3-031-75596-5_9" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="MoviePoster Grounded Visualization" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MoviePoster-Grounded Visualization</h3>
+
+                <p class="project-category">Research</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="https://doi.org/10.32604/cmc.2025.060363" target="_blank">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Vision-Language Models: The Future of AI" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">AI Research</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2025-01-01">Jan 1, 2025</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Vision-Language Models: Challenges and Applications</h3>
+
+                  <p class="blog-text">
+                    A comprehensive review exploring the latest developments in Vision-Language-Based Approaches, 
+                    examining challenges and real-world applications in AI systems.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://doi.org/10.1109/ACCESS.2024.3435964" target="_blank">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Face Detection Revolution" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Computer Vision</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2024-08-15">Aug 15, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Face Detection Using Eigenfaces: A Comprehensive Review</h3>
+
+                  <p class="blog-text">
+                    Deep dive into Eigenfaces methodology for face detection, exploring traditional approaches 
+                    and their evolution in modern computer vision applications.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://doi.org/10.1109/ICCE-Asia63397.2024.10773965" target="_blank">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="LLM Hallucinations" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Educational AI</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2024-11-01">Nov 1, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Mitigating Hallucinations in LLMs for Education</h3>
+
+                  <p class="blog-text">
+                    Innovative approaches to reduce hallucinations in large language models when applied 
+                    to educational contexts, ensuring reliable and accurate AI assistance.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://doi.org/10.1145/3628797.3628852" target="_blank">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="Audio AI for Beekeeping" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Applied AI</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2023-12-01">Dec 1, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">AI in Beekeeping: Audio Feature Extraction for Queen Detection</h3>
+
+                  <p class="blog-text">
+                    Exploring how audio signal processing and machine learning can revolutionize 
+                    beekeeping practices through automated queen bee presence detection.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#" >
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="Multimodal AI Systems" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Innovation</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2024-03-15">Mar 15, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Building Multimodal AI: From Theory to Practice</h3>
+
+                  <p class="blog-text">
+                    Insights from developing Glimpse, a multimodal system that transforms image collections 
+                    using vector databases and cutting-edge AI techniques.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#" >
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Community Impact" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Community</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2024-06-01">Jun 1, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">From Hackathons to Research: My AI Journey</h3>
+
+                  <p class="blog-text">
+                    Reflecting on the path from student competitions to professional research, 
+                    sharing lessons learned and insights for aspiring AI researchers.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d245368.47195239744!2d107.94419977343748!3d16.047079000000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314219c792252a13%3A0x1df0cb4b86727e06!2sDa%20Nang%2C%20Vietnam!5e0!3m2!1sen!2s!4v1640995200000!5m2!1sen!2s"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
